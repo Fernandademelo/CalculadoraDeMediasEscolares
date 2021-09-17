@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calcular Medias Escolares</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<HTML lang="pt-br">
+
+<head>
+  <title>Calcular Media</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="imersaodev" width = 100px >
+
+    <h1 id="titulo">Calculadora de Médias Escolares</h1>
+    <p> <h2 id="subtitulo">Descubra sua média aqui!!</h2>
+      </p>
+
+    <div onchange="calcNota()" class="calcNota">
+      <p id="primBim" class="primBim"> Primeiro Bimestre</p>
+      <input id="nota1" type="number">
+      <p id="segBim" class="segBim"> Segundo Bimestre</p>
+      <input id="nota2" type="number">
+      <p id="tercBim" class="tercBim"> Terceiro Bimestre</p>
+      <input id="nota3" type="number">
+      <p id="quartBim" class="quartBim"> Quarto Bimestre</p>
+      <input id="nota4" type="number">
+    </div>
+
+    <p id="resultado" class="resultado">
+      Esperando nota...
+    </p>
+
+    <img src="https://media2.giphy.com/media/xUA7bdpLxQhsSQdyog/giphy.gif" class="gif">
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

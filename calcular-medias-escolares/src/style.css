@@ -1,0 +1,69 @@
+body {
+  font-family: "Concert One", cursive;
+  font-size: 30px;
+  text-align: center;
+  background-color: #263046;
+}
+.resultado{
+  color:#fff;
+  font-size:32px;
+   text-shadow:
+      0 0 7px #0091EA,
+      0 0 10px #0091EA,
+      0 0 11px #0091EA,
+      0 0 12px #0091EA,
+      0 0 12px #0091EA,
+      0 0 12px #0091EA,
+      0 0 10px #0091EA,
+      0 0 15px #0091EA;
+}
+.calcNota input {
+  border: 1px solid #aaa;
+  text-align: center;
+  font-size: 25px;
+  background-color: #263046;
+  padding: 5px;
+  border-radius:90px;
+  border: 2px solid #eee;
+  transition: .3s border-color;
+}
+.calcNota input:hover {
+  border: 2px solid #3D5AFE;
+  
+}
+
+p.primBim{
+  text-align: center;
+  font-size: 20px;
+  color: #00B0FF;
+}
+p.segBim{
+  
+  text-align: center;
+  font-size: 20px;
+  color: #00B0FF;
+}
+p.tercBim{
+  text-align: center;
+  font-size: 20px;
+  color: #00B0FF;
+}
+p.quartBim{
+  text-align: center;
+  font-size: 20px;
+  color: #00B0FF;
+}
+
+h1{
+  color: #B0BEC5;
+  }
+h1:hover{
+  color: #3D5AFE;
+}
+
+h2{
+  color: #3D5AFE;
+}
+h2:hover{
+  color: #B0BEC5;
+}
